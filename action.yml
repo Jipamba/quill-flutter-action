@@ -40,8 +40,6 @@ outputs:
 runs:
   using: composite
   steps:
-    - name: Checkout Flutter app repo
-      uses: actions/checkout@v4
     - name: Set up Java Version
       uses: actions/setup-java@v2
       with:
